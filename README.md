@@ -233,8 +233,6 @@ Para ignorar archivos o directorios que no se quieran incluir en la imagen a cre
 
 ## Docker Network
 
-## Docker Network
-
 Crear una red docker, una red sirve para generar un puente del cual varios otros contenedores se conectarán y obtendrán ip, además de resolver por el nombre con el que se crearon los contenedores.
 Ejemplo:
 
