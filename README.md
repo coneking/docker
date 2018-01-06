@@ -200,12 +200,12 @@ Ejemplo dockerfile:
 
 <br>
 
-**FROM:** Imagen base que se usará
-**COPY:** Copia elementos "origen", "destino"... Si se trata de un archivo, se debe especificar el nombre del archivo destino.
-**EXPOSE:** Indica el puerto o puertos o rango de puertos que se expondrán en la imagen
-**CMD:** Describe una secuencia de comandos que se ejecutarán al lanzar el contenedor que se cree con esta imagen.
-**RUN:** Pasos que se ejecutarán en la imagen antes de crearse.
-**WORKDIR:** Directorio en el que se ejecutarán los comandos
+- **FROM:** Imagen base que se usará.
+- **COPY:** Copia elementos "origen", "destino"... Si se trata de un archivo, se debe especificar el nombre del archivo destino.
+- **EXPOSE:** Indica el puerto o puertos o rango de puertos que se expondrán en la imagen.
+- **CMD:** Describe una secuencia de comandos que se ejecutarán al lanzar el contenedor que se cree con esta imagen.
+- **RUN:** Pasos que se ejecutarán en la imagen antes de crearse.
+- **WORKDIR:** Directorio en el que se ejecutarán los comandos.
 
 <br>
 
