@@ -208,11 +208,13 @@ Ejemplo:
 	docker run -d --name my-production-running-app -e NODE_ENV=production -p 3000:3000 my-image-nodejs-app
 
 <br>
+
 ## Dockerignore
 
 Para ignorar archivos o directorios que no se quieran incluir en la imagen a crear, se deben agregar al archivo `.dockerignore` (similar a .gitignore).
 
 <br>
+
 ## Docker Network
 
 Crear una red docker, una red sirve para generar un puente del cual varios otros contenedores se conectarán y obtendrán ip, además de resolver por el nombre con el que se crearon los contenedores.
