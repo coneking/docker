@@ -41,6 +41,7 @@ Por otra parte, las máquinas virtuales necesitan la instalación de un Sistema 
 * [Docker Registry](#docker-registry)
 * [Docker Swarm](#docker-swarm)
 
+
 <br>
 
 ### Docker Daemon
@@ -229,6 +230,8 @@ Ejemplo:
 Para ignorar archivos o directorios que no se quieran incluir en la imagen a crear, se deben agregar al archivo `.dockerignore` (similar a .gitignore).
 
 <br>
+
+## Docker Network
 
 ## Docker Network
 
